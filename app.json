@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "whs-maps",
+    "name": "WHS Maps",
     "slug": "whs-maps",
+    "scheme": "whs-maps",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +19,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.prac.whsmaps"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "058adccb-2cf6-4d84-9236-5d8f2a517c78"
+      }
     }
   }
 }
