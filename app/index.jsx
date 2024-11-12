@@ -10,10 +10,10 @@ export default function App() {
     <SafeAreaView className="bg-primary h-full">
       <ScrollView contentContainerStyle={{ height: '100%' }}>
         <View className="w-full justify-center items-center min-h-[85vh] px-4">
-          <Text className="text-3xl font-pblack text-red-800">WHS Maps</Text>
+          <Text className="text-3xl font-pblack text-red-800">Wylie High School Maps</Text>
           <CustomButton
-            title="Continue with Email"
-            handlePress={() => router.push('/sign-in')}
+            title="Continue with ParentSqaure"
+            handlePress={() => router.push('/home')}
             containerStyles="w-full mt-7"
           />
         </View>

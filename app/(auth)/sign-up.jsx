@@ -26,7 +26,7 @@ const SignUp = () => {
       <ScrollView>
         <View className="w-full justify-center h-full px-4 my-6">
 
-          <Text className="text-2xl text-white text-semibold mt-10 font-psemibold">
+          <Text className="text-2xl text-black text-semibold mt-10 font-psemibold">
             Sign Up to WHS Maps
           </Text>
 
@@ -60,10 +60,10 @@ const SignUp = () => {
           />
 
           <View className="justfy-center pt-5 flex-row gap-2">
-            <Text className="text-lg text-gray-100 font-pregular">
+            <Text className="text-lg text-black-100 font-pregular">
               Have an account already?
             </Text>
-            <Link href="/sign-in" className="text-lg font-psemibold text-secondary">Sign In</Link>
+            <Link href="/sign-in" className="text-lg font-psemibold text-red-950">Sign In</Link>
           </View>
         </View>
       </ScrollView>
